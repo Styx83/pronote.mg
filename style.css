@@ -8,7 +8,7 @@ body
 }
  #title
 {
-  width: 850px;
+  width: 56%;
   margin: 0 auto;
   color: #2dd3ff;
   text-align: center;
@@ -23,7 +23,7 @@ body
 }
 #container
 {
-  width: 850px;
+  width: 56%;
   margin: 0 auto;
   display: flow;
   background-color: #101010;
@@ -36,7 +36,7 @@ body
 }
 #container-child
 {
-  width: 800px;
+  width: 90%;
   margin: 0 auto;
   margin-block-start: 10px;
   margin-block-end: 30px;
@@ -46,7 +46,7 @@ body
 }
 #container-child-last
 {
-  width: 800px;
+  width: 90%;
   margin: 0 auto;
   margin-block-end: 15px;
   background-color: #202020;
