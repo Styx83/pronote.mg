@@ -1,79 +1,57 @@
-body
-{
-  color: white;
-  background-color: #080808;
-  text-align: left;
-  font-size: 40px;
-  font-family: Figtree;
-}
- #title
-{
-  width: 56%;
-  margin: 0 auto;
-  color: #2dd3ff;
-  text-align: center;
-  background: #101010;
-  border-radius: 10px;
-  padding-top: 2px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 2px;
-  margin-block-start: 10px;
-  margin-block-end: 30px;
-}
-#container
-{
-  width: 56%;
-  margin: 0 auto;
-  display: flow;
-  background-color: #101010;
-  text-align: left;
-  font-size: 30px;
-  font-family: Figtree;
-  align-content: left;
-  padding: 20px;
-  border-radius: 20px;
-}
-#container-child
-{
-  width: 90%;
-  margin: 0 auto;
-  margin-block-start: 10px;
-  margin-block-end: 30px;
-  background-color: #202020;
-  padding: 20px;
-  border-radius: 10px;
-}
-#container-child-last
-{
-  width: 90%;
-  margin: 0 auto;
-  margin-block-end: 15px;
-  background-color: #202020;
-  padding: 20px;
-  border-radius: 10px;
-}
-#flex-container
-{
-  display: flex;
-}
-a:link {
-  color:  #2dd3ff;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: #089bbf;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: #08b4e1;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color:  #2dd3ff;
-  background-color: transparent;
-  text-decoration: underline;
-}
+body {
+    color: white;
+    background-color: #080808;
+    text-align: left;
+    font-size: 3vmax; /* Utilisation de vmax pour la taille du texte */
+    font-family: Figtree, sans-serif; /* Spécifier une police de secours */
+    font-stretch: 80%; /* Rendre le texte légèrement plus étroit */
+  }
+  
+  /* Title styles */
+  #title {
+    width: 80%;
+    margin: 10px auto 30px; /* Combinaison de margin-top et margin-bottom */
+    color: #2dd3ff;
+    text-align: center;
+    background: #101010;
+    border-radius: 10px;
+    padding: 2px 20px; /* Simplification de padding */
+  }
+  
+  /* Container styles */
+  #container {
+    width: 80%;
+    margin: 0 auto;
+    display: block; /* Correction du display (flow n'est pas valide) */
+    background-color: #101010;
+    text-align: left;
+    font-size: 30px;
+    font-family: Figtree, sans-serif;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  /* Child container styles */
+  #container-child,
+  #container-child-last {
+    width: 90%;
+    margin: 10px auto 30px; /* Simplification de la marge */
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Link styles (using shared properties) */
+  a:link,
+  a:visited {
+    color: #2dd3ff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:active {
+    color: #08b4e1;
+    background-color: transparent;
+    text-decoration: underline;
+  }
