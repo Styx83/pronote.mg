@@ -8,14 +8,14 @@ body {
   }
   
   /* Title styles */
-  #title {
+    #title {
     width: 80%;
     margin: 10px auto 30px;
     color: #2dd3ff;
     text-align: center;
     background: #101010;
     border-radius: 10px;
-    padding: 2px 20px;
+    padding: 0.3% 2%;
   }
   
   /* Container styles */
@@ -27,7 +27,7 @@ body {
     text-align: left;
     font-size: 30px;
     font-family: Figtree, sans-serif;
-    padding: 1%;
+    padding: 2%;
     border-radius: 20px;
   }
   
